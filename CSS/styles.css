@@ -51,8 +51,6 @@ img {
 .container-nav {
   display: flex;
   margin-left: 331px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .navigation {
   display: flex;
@@ -89,6 +87,7 @@ ul {
   list-style: none;
 }
 .link {
+  display: block;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -113,6 +112,11 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.container-navigation {
+  display: flex;
+  align-items: center;
+  margin-left: 331px;
+}
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-text-color);
@@ -134,12 +138,18 @@ ul {
   margin-right: auto;
   width: 1200px;
 }
+header .container {
+  display: flex;
+  align-items: center;
+}
 /* Эффективные решения для бизнесса */
 .hero {
   background-color: var(--footer-background);
   text-transform: uppercase;
 
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .button-first {
@@ -153,8 +163,6 @@ ul {
   padding: 10px 32px;
   border-radius: 4px;
   min-width: 200px;
-  height: 50px;
-  margin-bottom: 200px;
 }
 
 button {
@@ -168,7 +176,6 @@ button {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  padding-top: 200px;
   letter-spacing: 0.06em;
 }
 .text {
@@ -190,18 +197,15 @@ button {
 }
 .title {
   margin-bottom: 0px;
-  margin-top: 94px;
-}
-.title-images {
-  margin-top: 50px;
+  margin-top: 0;
 }
 .title-images:not(:first-child) {
   margin-left: 30px;
-  margin-top: 50px;
 }
 .title-images-container {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 .title-team {
   margin-top: 0px;
@@ -215,6 +219,9 @@ button {
   text-transform: uppercase;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+.section-about-us {
+  padding-top: 94px;
 }
 .about-us {
   display: flex;
@@ -248,6 +255,8 @@ button {
 }
 .section-team {
   background-color: var(--team-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-container {
   display: flex;
