@@ -280,7 +280,9 @@ button {
 }
 
 /* подвал */
-
+.footer-list {
+  margin-top: 9px;
+}
 .footer-contacts {
   color: var(--footer-links-color);
   text-decoration: none;
@@ -288,9 +290,10 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  display: block;
+  margin-top: 9px;
 
   letter-spacing: 0.03em;
-  margin-top: 9px;
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
